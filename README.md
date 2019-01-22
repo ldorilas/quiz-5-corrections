@@ -8,10 +8,13 @@ My answer: @Private
 
 Correct answer: @Override
 
-Reasoning: 
+
+Reasoning:  
+
 `
-look up what both annotations mean
+Using the annotation @Override informs the compiler that the element is meant to override an element declared in a superclass, while using the annotation @Private indicates that the constructor is private.
 `
+
 
 *Question 6*
 
@@ -62,7 +65,7 @@ Correct answer: 2 2 10 15
 
 Reasoning: 
 `
-go through code and carefully analyze what is going on at each step
+2 will be printed first instead of 1 because although q1 and q2 have different values initialized for questionCount, when q2 is incremented, q1 will be incremented as well because int id for both variables equals 1.
 `
 
 
@@ -76,7 +79,7 @@ Correct answer: accessor
 
 Reasoning:
 `
-look up what both things mean
+An accessor returns a class's variable or value, while a constructor is used to initialize an object's state and does not return a value.
 `
 
 
@@ -90,5 +93,5 @@ Correct answer: mutator
 
 Reasoning: 
 `
-look up what both things mean
+A mutator is used to set a value of a private field based on what was received as the parameter; a static method is called without creating an object of a class and is shared among all objects created from the class.
 `
