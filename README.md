@@ -10,7 +10,6 @@ Correct answer: @Override
 
 
 Reasoning:  
-
 `
 Using the annotation @Override informs the compiler that the element is meant to override an element declared in a superclass, while using the annotation @Private indicates that the constructor is private.
 `
